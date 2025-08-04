@@ -552,3 +552,4 @@ D:\College Fee Management System\FmsEliteBilling.API\obj\Debug\net9.0\refint\Fms
 D:\College Fee Management System\FmsEliteBilling.API\obj\Debug\net9.0\FmsEliteBilling.API.pdb
 D:\College Fee Management System\FmsEliteBilling.API\obj\Debug\net9.0\FmsEliteBilling.API.genruntimeconfig.cache
 D:\College Fee Management System\FmsEliteBilling.API\obj\Debug\net9.0\ref\FmsEliteBilling.API.dll
+D:\College Fee Management System\FmsEliteBilling.API\obj\Debug\net9.0\FmsEliteBilling.API.sourcelink.json

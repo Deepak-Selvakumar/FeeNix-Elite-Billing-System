@@ -74,7 +74,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Version = "v1",
         Title = "FmsEliteBilling API",
-        Description = "A .NET 9 Web API for managing LEO operations",
+        Description = "A .NET 9 Web API for managing fee operations",
         TermsOfService = new Uri("https://www.google.com/"),
         Contact = new OpenApiContact
         {
