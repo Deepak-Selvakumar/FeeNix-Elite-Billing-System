@@ -70,7 +70,7 @@ namespace FmsEliteBilling.Data.Repositories
                    
                     var json = JsonConvert.SerializeObject(SqlMapper.Query(connection, query, param: parameters, commandType: CommandType.StoredProcedure).AsList());
                     result.value=JsonConvert.DeserializeObject<List<T>>(json);
-                //    result.response.ReturnNumber=parameters.Get<int>("rtn_io");
+                 
                     result.response.ErrorMessage=parameters.Get<string>("errmsg_o");
                   
                     return result;
