@@ -1,0 +1,64 @@
+D:\College Fee Management System\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.deps.json
+D:\College Fee Management System\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\College Fee Management System\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.AssemblyReference.cache
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfoInputs.cache
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfo.cs
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.CoreCompileInputs.cache
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\refint\FmsEliteBilling.Model.dll
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\ref\FmsEliteBilling.Model.dll
+D:\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.sourcelink.json
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.deps.json
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.AssemblyReference.cache
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfoInputs.cache
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfo.cs
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.CoreCompileInputs.cache
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.sourcelink.json
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\refint\FmsEliteBilling.Model.dll
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Model\obj\Debug\net9.0\ref\FmsEliteBilling.Model.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.deps.json
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.AssemblyReference.cache
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfoInputs.cache
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfo.cs
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.CoreCompileInputs.cache
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.sourcelink.json
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\refint\FmsEliteBilling.Model.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\ref\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.deps.json
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.AssemblyReference.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfoInputs.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfo.cs
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.CoreCompileInputs.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\refint\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\ref\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.sourcelink.json
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.deps.json
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.AssemblyReference.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfoInputs.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.AssemblyInfo.cs
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.csproj.CoreCompileInputs.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\refint\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\FmsEliteBilling.Model.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Model\obj\Debug\net9.0\ref\FmsEliteBilling.Model.dll

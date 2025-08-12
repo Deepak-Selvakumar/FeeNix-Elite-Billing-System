@@ -1,0 +1,79 @@
+D:\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.deps.json
+D:\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.dll
+D:\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.pdb
+D:\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.AssemblyReference.cache
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfoInputs.cache
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfo.cs
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.CoreCompileInputs.cache
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsElite.231B2813.Up2Date
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.dll
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\refint\FmsEliteBilling.Data.dll
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.pdb
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\ref\FmsEliteBilling.Data.dll
+D:\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.sourcelink.json
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.deps.json
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.dll
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.pdb
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.AssemblyReference.cache
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfoInputs.cache
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfo.cs
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.CoreCompileInputs.cache
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.sourcelink.json
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsElite.231B2813.Up2Date
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.dll
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\refint\FmsEliteBilling.Data.dll
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.pdb
+D:\FeeNix\College Fee Management System\FmsEliteBilling.Data\obj\Debug\net9.0\ref\FmsEliteBilling.Data.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.deps.json
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.pdb
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.AssemblyReference.cache
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfoInputs.cache
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfo.cs
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.CoreCompileInputs.cache
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.sourcelink.json
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsElite.231B2813.Up2Date
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\refint\FmsEliteBilling.Data.dll
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.pdb
+D:\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\ref\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.deps.json
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.AssemblyReference.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfoInputs.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfo.cs
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.CoreCompileInputs.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsElite.231B2813.Up2Date
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\refint\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\ref\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.sourcelink.json
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.deps.json
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Data.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\bin\Debug\net9.0\FmsEliteBilling.Model.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.AssemblyReference.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfoInputs.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.AssemblyInfo.cs
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.csproj.CoreCompileInputs.cache
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsElite.231B2813.Up2Date
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\refint\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.pdb
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\ref\FmsEliteBilling.Data.dll
