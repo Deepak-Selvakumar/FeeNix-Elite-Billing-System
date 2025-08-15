@@ -77,3 +77,4 @@ C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNi
 C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\refint\FmsEliteBilling.Data.dll
 C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.pdb
 C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\ref\FmsEliteBilling.Data.dll
+C:\Users\NEW\Music\FeeNixBillingSystem\FeeNixApp\Fee-Nix\FeeNIxApi-Backend\FeeNixApi\FmsEliteBilling.Data\obj\Debug\net9.0\FmsEliteBilling.Data.sourcelink.json
