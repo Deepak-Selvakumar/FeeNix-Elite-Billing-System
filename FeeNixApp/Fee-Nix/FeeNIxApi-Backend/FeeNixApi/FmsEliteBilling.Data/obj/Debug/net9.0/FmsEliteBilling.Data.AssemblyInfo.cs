@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FmsEliteBilling.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e20e85b727d03b82906f8ded8ea28c2d765ce45f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+027a3e34e58d5c5a1090238e7a37110a6b8596f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FmsEliteBilling.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FmsEliteBilling.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
