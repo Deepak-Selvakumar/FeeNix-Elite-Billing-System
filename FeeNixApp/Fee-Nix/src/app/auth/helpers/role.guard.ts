@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot } from '@angular/router';
 import { environment } from '../../../environments/environment';
-import { MenuService } from '../services/menu.service';
-import { MenuUserAccessService } from '../services/menu-user-access/menu-user-access.service';
-import { SnackBarService } from '../services/snack-bar/snack-bar.service';
-import { IMenuList } from '../services/sel.interface';
+import { MenuService } from '../../services/menu/menu.service';
+import { MenuUserAccessService } from '../../services/menu-user-access/menu-user-access.service';
+import { SnackBarService } from '../../services/snack-bar/snack-bar.service';
+import { ImenuList } from '../../services/sel.interface';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RoleGuard implements CanActivate {
-  menuList: IMenuList[] = [];
+  menuList: ImenuList[] = [];
 
   constructor(
     private menuService: MenuService,
@@ -45,8 +45,7 @@ export class RoleGuard implements CanActivate {
 
         // Check if the current URL exists in the menu permissions
         let menuStatus: boolean = this.menuList.some(val =>
-          val.subMenu.menu.some(menulist => menulist.url === getURL)
-        );
+          val.subMenu.some(subMenu => subMenu.menu.some(menuList => menuList.url === getURL)))
 
         if (menuStatus) {
           this.menuUserAccessService.callComponentMethod(true);
