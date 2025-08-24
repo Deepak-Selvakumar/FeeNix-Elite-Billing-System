@@ -1,1 +1,21 @@
-<p>year works!</p>
+<ng-container *ngIf="!yearLoaderStatus; else loading">
+    <mat-form-field class="yearSelect" appearance="outline" *ngIf="yearList && yearList.length > 0; else noData">
+        <mat-label>Appraisal Year</mat-label>
+        <mat-select (selectionChange)="getYear($event)" [(value)]="selectedYear" [disabled]="yearStatus">
+            <mat-option *ngFor="let year of yearList" [value]="year">{{year.appraisalYear}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+</ng-container>
+
+<ng-template #loading>
+    <div class="yearLoader">
+        <mat-spinner [diameter]="22" [strokeWidth]="2"></mat-spinner>
+        <p>Year data Loading...</p>
+    </div>
+</ng-template>
+
+<ng-template #noData>
+    <div class="yearNodata">
+        <p>Year data not available</p>
+    </div>
+</ng-template>

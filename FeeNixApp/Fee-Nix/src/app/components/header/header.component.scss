@@ -1,0 +1,153 @@
+.headerSection{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.17);
+    z-index: 103;
+    
+    .headerColumn{
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 70px;
+        
+        .headerContent{
+            position: relative;
+            margin-right: 12px;
+            
+            .logo{
+                height: 40px;
+            }
+            
+            .menu{
+                width: 24px;
+                height: auto;
+                cursor: pointer;
+            }
+            
+            .menuClose{
+                width: 16px;
+                height: auto;
+                transform: translate(7px, 0px);
+                cursor: pointer;
+            }
+            
+            .search{
+                position: relative;
+                margin: 0px 12px 0px 0px;
+                
+                input{
+                    position: relative;
+                    width: 320px;
+                    height: 32px;
+                    background-color: #f1f1f1;
+                    font-size: 13px;
+                    border: 1px solid #ccc;
+                    border-radius: 20px;
+                    padding: 0px 10px 0px 40px;
+                    
+                    &:focus-visible{
+                        outline: none;
+                    }
+                }
+                
+                img{
+                    position: absolute;
+                    top: 0px;
+                    left: 10px;
+                    width: 24px;
+                    height: auto;
+                }
+            }
+            
+            .userProfile{
+                button{
+                    border-left: 1px solid #ddd;
+                    border-radius: 0;
+                    height: 70px;
+                    padding: 0px 20px;
+                    border-top: none;
+                    background: #fff;
+                    border-right: none;
+                    border-bottom: none;
+                    display: flex;
+                    align-items: center;
+                    
+                    h4{
+                        position: relative;
+                        color: #444444;
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-align: left;
+                        line-height: 1.4;
+                        padding-right: 20px;
+                        margin: 0px;
+                        
+                        span{
+                            display: block;
+                            color: #333333;
+                            font-weight: 600;
+                        }
+                    }
+                    
+                    .notificationCount{
+                        position: absolute;
+                        top: -12px;
+                        right: -14px;
+                        background: #fff500;
+                        color: #fff;
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 1;
+                        border-radius: 0px;
+                        padding: 3px 2px;
+                    }
+                    
+                    .notification{
+                        width: 24px;
+                        height: auto;
+                    }
+                    
+                    .arrow{
+                    }
+                }
+            }
+            
+            .appList{
+                button{
+                    h4{
+                        padding-left: 20px;
+                    }
+                    
+                    .icon{
+                        width: 26px;
+                        height: auto;
+                        border-radius: 50%;
+                    }
+                    
+                    &.menuIcon{
+                        width: 30px;
+                    }
+                    
+                    &:last-child{
+                        .headerContent{
+                            margin-right: 0px;
+                            // margin-left: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

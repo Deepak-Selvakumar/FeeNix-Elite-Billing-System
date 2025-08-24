@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { NoDataComponent } from './no-data.component';
 
 describe('NoDataComponent', () => {
@@ -8,9 +7,8 @@ describe('NoDataComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NoDataComponent]
-    })
-    .compileComponents();
+      declarations: [NoDataComponent]
+    }).compileComponents();
 
     fixture = TestBed.createComponent(NoDataComponent);
     component = fixture.componentInstance;
