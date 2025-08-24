@@ -1,0 +1,39 @@
+.headerbreadcrumb {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 0px 20px;
+}
+
+.headerbreadcrumb h4 {
+    width: 100%;
+    color: #17181a;
+    font-size: 20px;
+    font-weight: 700;
+    border-left: 4px solid var(--primarycolor);
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 4px;
+}
+
+.headerbreadcrumb a {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.headerbreadcrumb mat-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin: 0px 4px;
+}
+
+.headerbreadcrumb span {
+    color: var(--primarycolor);
+    font-size: 14px;
+    font-weight: 400;
+}

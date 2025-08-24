@@ -1,1 +1,45 @@
-<p>side-nav works!</p>
+<div [class]="menuStatus ? 'nav active': 'nav'">
+    <ng-container *ngIf="!menuListStatus; else loader">
+        <ul *ngIf="menuList && menuList.length > 0; else noData">
+            <li *ngFor="let menu of menuList; let i = index">
+                <span class="subMenuHeader" *ngIf="menu.subMenu" (click)="subMenu(menu.subMenu ? menu : null)"></span>
+                <a [routerLink]="menu.url" routerLinkActive="active" ariaCurrentWhenActive="page"
+                    [routerLinkActiveOptions]="{ exact: false }" (click)="subMenu(null)">
+                    <img src="assets/images/icon/{{menu.imgUrl}}" alt="" *ngIf="menu.imgUrl" />
+                    <p>{{menu.name}}</p>
+                    <mat-icon *ngIf="menu.subMenu">keyboard_arrow_right</mat-icon>
+                </a>
+            </li>
+        </ul>
+    </ng-container>
+</div>
+
+<div [class]="selectedSubMenu && menuStatus ? 'subMenu active': 'subMenu'">
+    <ng-container *ngIf="selectedSubMenu">
+        <div class="title">
+            <h4>{{selectedSubMenu.name}}</h4>
+            <mat-icon (click)="subMenu(null)">close</mat-icon>
+        </div>
+        <div class="detail">
+            <div class="list" *ngFor="let menu of selectedSubMenu.subMenu">
+                <h6>{{menu.title}}</h6>
+                <ul>
+                    <li *ngFor="let subMenuList of menu.menu; let i = index">
+                        <a [routerLink]="subMenuList.url" routerLinkActive="active" ariaCurrentWhenActive="page"
+                            [routerLinkActiveOptions]="{ exact: i === 0 ? true : false }" (click)="subMenu(null)">
+                            {{subMenuList.name}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </ng-container>
+</div>
+
+<ng-template #loader>
+    <app-no-data [loaderStatus]="true" [loaderText]="'Data loading, please wait...'"></app-no-data>
+</ng-template>
+
+<ng-template #noData>
+    <app-no-data [loaderStatus]="false" [loaderText]="'No Data Found'"></app-no-data>
+</ng-template>

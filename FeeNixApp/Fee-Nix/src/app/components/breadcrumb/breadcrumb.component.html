@@ -1,1 +1,8 @@
-<p>breadcrumb works!</p>
+<div class="headerbreadcrumb" *ngIf="breadcrumbs && breadcrumbs.length > 1">
+    <h4>{{breadcrumbs[breadcrumbs.length - 1].label}}</h4>
+    <ng-container *ngFor="let breadcrumb of breadcrumbs; let last = last">
+        <a [routerLink]="breadcrumb.url" *ngIf="!last">{{breadcrumb.label}}</a>
+        <mat-icon *ngIf="!last">keyboard_arrow_right</mat-icon>
+        <span *ngIf="last">{{breadcrumb.label}}</span>
+    </ng-container>
+</div>

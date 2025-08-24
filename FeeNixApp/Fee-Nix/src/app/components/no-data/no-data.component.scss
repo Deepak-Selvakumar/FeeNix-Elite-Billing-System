@@ -1,0 +1,26 @@
+.noData {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  
+  mat-spinner {
+    position: relative;
+  }
+  
+  img {
+    width: 120px;
+    height: auto;
+  }
+  
+  p {
+    color: #17181a;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 10px 0px 0px;
+  }
+}

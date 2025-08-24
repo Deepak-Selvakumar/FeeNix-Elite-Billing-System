@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Subject } from 'rxjs';
-import { IBreadcrumb } from '../services/sel.interface';
+import { IBreadcrumb } from '../../services/sel.interface';
 
 @Injectable({
     providedIn: 'root'

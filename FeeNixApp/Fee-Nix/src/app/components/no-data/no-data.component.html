@@ -1,1 +1,5 @@
-<p>no-data works!</p>
+<mat-card class="cardSection noData">
+  <mat-spinner diameter="70" strokeWidth="4" *ngIf="loaderStatus"></mat-spinner>
+  <img src="assets/images/no-data.png" alt="no data" *ngIf="!loaderStatus" />
+  <p>{{loaderText}}</p>
+</mat-card>

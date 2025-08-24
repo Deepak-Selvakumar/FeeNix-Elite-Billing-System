@@ -10,15 +10,15 @@ export interface IUserDetail {
     orgId: number;
     accessLevel: number;
     admincred: string;
-    loginHD: string;
+    loginHTD: string;
     sessionYearTxt: string;
     toApps: string;
 }
 
-export interface IAppList {
+export interface IappList {
     personalID: number;
-    personalName: string;
-    personalAppName: string;
+    personaName: string;
+    personaAppName: string;
     appIcon: string;
     appSURL: string;
     navigateURL: string;
@@ -75,7 +75,7 @@ export interface IUserSelect {
     sessionYearTxt: any;
     logdecimalype: any;
     accessLevel: any;
-    personalName: any;
+    personaName: any;
     defaultPersona: any;
     consultantId: any;
     randNo: any;

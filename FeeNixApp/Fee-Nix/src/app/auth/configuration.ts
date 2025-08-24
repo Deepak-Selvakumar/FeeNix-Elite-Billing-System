@@ -7,5 +7,14 @@ export const protectedResources={
     },
     RefreshToken: {
         resourceUrl: '/api/auth/refresh-token'
-    }
+    },
+    MenuList :{
+        resourceUrl: '/api/menu/menulist'
+    },
+    PersonaList :{
+        resourceUrl: '/api/menu/applications'
+    },
+    YearList :{
+        resourceUrl: '/api/sel/yearlist'
+    },
 }

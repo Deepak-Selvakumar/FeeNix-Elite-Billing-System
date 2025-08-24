@@ -1,1 +1,88 @@
-<p>header works!</p>
+<section class="headerSection">
+    <div class="headerColumn">
+        <div class="headerContent menuIcon" (click)="getMenuStatus()">
+            <img src="assets/images/icon/menu.png" alt="Menu" class="menu" *ngIf="!menuStatus" />
+            <img src="assets/images/icon/menu-close.png" alt="Menu" class="menuClose" *ngIf="menuStatus" />
+        </div>
+        <div class="headerContent">
+            <img src="assets/images/logo.png" alt="logo" class="logo" />
+        </div>
+    </div>
+    
+    <div class="headerColumn">
+        <!-- <div class="headerContent">
+            <div class="search">
+                <input type="text" placeholder="Search Student Name, Mobile & Adm No" />
+                <img src="assets/images/icon/search.png" alt="icon" />
+            </div>
+        </div> -->
+        
+        <div class="headerContent" *ngIf="onlineUserCount">
+            <div class="userProfile">
+                <button mat-button color="primary" matTooltip="Online Users">
+                    <img src="assets/images/icon/online-user.png" alt="icon" class="notification" />
+                    <span class="notificationCount">{{onlineUserCount < 10 ? '0' + onlineUserCount : onlineUserCount}}</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- <div class="headerContent">
+            <div class="userProfile">
+                <button mat-button color="primary" (click)="openLink('Home/Notification.aspx')">
+                    <img src="assets/images/icon/notification.png" alt="icon" class="notification" />
+                    <span class="notificationCount">80</span>
+                </button>
+            </div>
+        </div> -->
+        
+        <div class="headerContent">
+            <div class="userProfile appList">
+                <button mat-button [matMenuTriggerFor]="menuAppList">
+                    <img src="assets/images/icon/user-icon.png" alt="icon" class="icon" />
+                    <h4>{{selectedApp?.personaName}}</h4>
+                    <img src="assets/images/icon/down-arrow.png" alt="arrow" class="arrow" />
+                </button>
+                <mat-menu #menuAppList="matMenu" class="appListMenu">
+                    <div class="listContent" *ngIf="!appListStatus; else loader">
+                        <ul *ngIf="appList && appList.length > 0; else noData">
+                            <li [class]="app.activeStatus ? 'active' : ''" *ngFor="let app of appList" (click)="selectApp(app)">
+                                <img src="assets/images/icon/present.png" alt="icon" class="tickIcon" *ngIf="app.activeStatus" />
+                                <img src="{{app.appIcon}}" alt="icon" class="icon" />
+                                <h6>{{app.personaName}}</h6>
+                                <span class="line" [style.background]="app.color"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </mat-menu>
+            </div>
+        </div>
+        
+        <div class="headerContent">
+            <div class="userProfile">
+                <button mat-button [matMenuTriggerFor]="menuProfile">
+                    <!-- <h4>Welcome<span>Gown1 Shankar R</span></h4> -->
+                    <h4>Welcome<span *ngIf="userDetail">{{userDetail.username}}</span></h4>
+                    <img src="assets/images/icon/down-arrow.png" alt="arrow" class="arrow" />
+                </button>
+                <mat-menu #menuProfile="matMenu" class="profileMenu">
+                    <button mat-menu-item *ngFor="let profile of profileLink" (click)="openLink(profile.url)">
+                        <img src="assets/images/icon/{{profile.icon}}" alt="icon" />
+                        <span>{{profile.name}}</span>
+                    </button>
+                </mat-menu>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="redirectLoader" *ngIf="appRedirectLoaderStatus">
+    <app-no-data [loaderStatus]="true" [loaderText]="appRedirectText"></app-no-data>
+</div>
+
+<ng-template #loader>
+    <app-no-data [loaderStatus]="true" [loaderText]="'Data loading, please wait...'"></app-no-data>
+</ng-template>
+
+<ng-template #noData>
+    <app-no-data [loaderStatus]="false" [loaderText]="'No Data Found'"></app-no-data>
+</ng-template>
