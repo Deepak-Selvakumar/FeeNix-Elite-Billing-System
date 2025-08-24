@@ -1,4 +1,4 @@
-<div [class]="menustatus ? 'nav active': 'nav'">
+<div [class]="menuStatus ? 'nav active': 'nav'">
     <ng-container *ngIf="!menuListStatus; else loader">
         <ul *ngIf="menuList && menuList.length > 0; else noData">
             <li *ngFor="let menu of menuList; let i = index">
@@ -14,7 +14,7 @@
     </ng-container>
 </div>
 
-<div [class]="selectedSubMenu && menustatus ? 'subMenu active': 'subMenu'">
+<div [class]="selectedSubMenu && menuStatus ? 'subMenu active': 'subMenu'">
     <ng-container *ngIf="selectedSubMenu">
         <div class="title">
             <h4>{{selectedSubMenu.name}}</h4>

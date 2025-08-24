@@ -7,7 +7,7 @@ import { RouterOutlet } from '@angular/router';
 import { NoDataComponent } from './components/no-data/no-data.component';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { HeaderComponent } from './components/header/header.component';
-import { IAppList, IUserDetail } from './services/sel.interface';
+import { IappList, IUserDetail } from './services/sel.interface';
 import { BreadcrumbListComponent } from './components/breadcrumb-list/breadcrumb-list.component';
 import { YearComponent } from './components/year/year.component';
 import { CommonModule } from '@angular/common';
@@ -34,7 +34,7 @@ export class AppComponent implements OnInit {
 
     menuStatus: boolean = false;
     userDetail: IUserDetail | null = null;
-    selectedApp: IAppList | null = null;
+    selectedApp?: IappList;
     menuUserAccess: boolean = false;
 
     constructor(
@@ -62,12 +62,13 @@ export class AppComponent implements OnInit {
         this.menuStatus = $event;
     }
 
-    receiveAppStatus($event: IAppList) {
+    receiveAppStatus($event: IappList) {
         console.log($event);
         this.selectedApp = $event;
     }
 
     appUpdate() {
+        debugger
         if (environment.production) {
             if (this.updates.isEnabled) {
                 this.updates.versionUpdates.subscribe(evt => {

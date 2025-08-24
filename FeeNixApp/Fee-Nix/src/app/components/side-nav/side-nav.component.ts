@@ -3,7 +3,7 @@ import { environment } from '../../../environments/environment';
 import { protectedResources } from '../../auth/configuration';
 import { SelService } from '../../services/sel/sel.service';
 import { MenuService } from '../../services/menu/menu.service';
-import { IAppList, ImenuList } from '../../services/sel.interface';
+import { IappList, ImenuList } from '../../services/sel.interface';
 import { CommonModule } from '@angular/common';
 import { NoDataComponent } from '../no-data/no-data.component';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
@@ -19,8 +19,8 @@ import { MatIconModule } from '@angular/material/icon';
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class SideNavComponent implements OnChanges {
-    @Input() menustatus: boolean = false;
-    @Input() selectedApp: IAppList | undefined;
+    @Input() menuStatus: boolean = false;
+    @Input() selectedApp: IappList | undefined;
     @Output() menuActiveStatus = new EventEmitter<boolean>();
     menuListStatus: boolean = false;
     menuList: ImenuList[] = []
@@ -32,7 +32,7 @@ export class SideNavComponent implements OnChanges {
     ) { }
 
     ngOnChanges(changes: SimpleChanges) {
-        changes['menustatus'] ? this.selectedSubMenu = changes['menustatus'].currentValue ? null : null : '';
+        changes['menuStatus'] ? this.selectedSubMenu = changes['menuStatus'].currentValue ? null : null : '';
         changes['selectedApp'] ? this.getMenuList() : '';
         console.log(changes);
     }

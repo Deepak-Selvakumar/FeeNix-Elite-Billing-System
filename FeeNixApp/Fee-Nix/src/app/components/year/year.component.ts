@@ -3,7 +3,7 @@ import { Subscription } from 'rxjs';
 import { environment } from '../../../environments/environment';
 import { protectedResources } from '../../auth/configuration';
 import { SelService } from '../../services/sel/sel.service';
-import { Iyear } from '../../services/sel.interface';
+import { IYear } from '../../services/sel.interface';
 import { YearSelectService } from '../../services/year-select/year-select.service';
 import { YearStatusService } from '../../services/year-status/year-status.service';
 import { SnackBarService } from '../../services/snack-bar/snack-bar.service';
@@ -30,9 +30,9 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class YearComponent implements OnInit, OnDestroy {
-  yearList: Iyear[] = [];
-  selectedYear: Iyear = null;
-  yearStatusSubscription: Subscription;
+  yearList: IYear[] = [];
+  selectedYear: IYear | null = null;
+  yearStatusSubscription: Subscription | undefined;
   yearStatus: boolean = false;
   yearLoaderStatus: boolean = false;
 
@@ -60,8 +60,10 @@ export class YearComponent implements OnInit, OnDestroy {
           // let findIndex = this.yearList.findIndex(val => val.yearNumber === getYear);
           let findIndex = this.yearList.findIndex(val => val.yearActiveFlag === 'Y');
           findIndex >= 0 ? this.selectedYear = this.yearList[findIndex] : '';
-          this.yearSelectService.callComponentMethod(this.selectedYear);
-          sessionStorage.setItem("year", JSON.stringify(this.selectedYear));
+          if (this.selectedYear) {
+            this.yearSelectService.callComponentMethod(this.selectedYear);
+            sessionStorage.setItem("year", JSON.stringify(this.selectedYear));
+          }
           this.yearLoaderStatus = false;
         } else {
           this.yearList = [];
@@ -81,8 +83,10 @@ export class YearComponent implements OnInit, OnDestroy {
 
   getYear(event: any) {
     this.selectedYear = event.value;
-    this.yearSelectService.callComponentMethod(this.selectedYear);
-    sessionStorage.setItem("year", JSON.stringify(this.selectedYear));
+    if (this.selectedYear) {
+      this.yearSelectService.callComponentMethod(this.selectedYear);
+      sessionStorage.setItem("year", JSON.stringify(this.selectedYear));
+    }
     //console.log(this.selectedYear);
   }
 
@@ -103,6 +107,6 @@ export class YearComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.yearStatusSubscription.unsubscribe();
+    this.yearStatusSubscription?.unsubscribe();
   }
 }

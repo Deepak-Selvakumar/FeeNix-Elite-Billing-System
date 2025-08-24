@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Subject } from 'rxjs';
-import { IYear } from '../services/sel.interface';
+import { IYear } from '../../services/sel.interface';
 
 @Injectable({
     providedIn: 'root'

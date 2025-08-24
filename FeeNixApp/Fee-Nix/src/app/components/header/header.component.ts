@@ -5,7 +5,7 @@ import { AuthenticationService } from '../../auth/services';
 import { protectedResources } from '../../auth/configuration';
 import { SelService } from '../../services/sel/sel.service';
 import { UserSelectService } from '../../services/user-select/user-select.service';
-import { IUserDetail, IuserSelect, IAppList } from '../../services/sel.interface';
+import { IUserDetail, IUserSelect, IappList } from '../../services/sel.interface';
 import { UserSelectComponent } from '../user-select/user-select.component';
 import { CommonModule } from '@angular/common';
 import { NoDataComponent } from '../no-data/no-data.component';
@@ -22,12 +22,12 @@ import { MatMenuModule } from '@angular/material/menu';
 export class HeaderComponent implements OnInit {
     @Input() menuStatus: boolean = false;
     userDetail: IUserDetail | null = null;
-    userSelected: IuserSelect | null = null;
+    userSelected: IUserSelect | null = null;
     @Output() menuActiveStatus = new EventEmitter<boolean>();
-    @Output() appActiveStatus = new EventEmitter<IAppList>();
-    appList: IAppList[] = [];
+    @Output() appActiveStatus = new EventEmitter<IappList>();
+    appList: IappList[] = [];
     appListStatus: boolean = false;
-    selectedApp: IAppList | null = null;
+    selectedApp: IappList | null = null;
     appRedirectLoaderStatus: boolean = false;
     appRedirectText: string = '';
     profileLink: any[] = [
@@ -109,7 +109,7 @@ export class HeaderComponent implements OnInit {
         this.menuActiveStatus.emit(this.menuStatus);
     }
 
-    selectApp(data: IAppList) {
+    selectApp(data: IappList) {
         this.appList.map(val => val.activeStatus = false);
         let findIndex = this.appList.findIndex(val => val.personaName === data.personaName);
         findIndex >= 0 ? this.appList[findIndex].activeStatus = true : '';
@@ -117,7 +117,7 @@ export class HeaderComponent implements OnInit {
         this.redirectApp(data);
     }
 
-    redirectApp(toAppData: IAppList) {
+    redirectApp(toAppData: IappList) {
         this.appRedirectText = `Redirect to ${toAppData.personaName} App, please wait...`;
         this.appRedirectLoaderStatus = true;
         let url: string = `${environment.apiURL}${protectedResources.MenuNavigation.resourceUrl}`;
@@ -177,7 +177,9 @@ export class HeaderComponent implements OnInit {
         });
         dialogRef.afterClosed().subscribe(user => {
             this.userSelected = user;
-            this.userSelectService.callComponentMethod(this.userSelected);
+            if (this.userSelected) {
+                this.userSelectService.callComponentMethod(this.userSelected);
+            }
             // console.log(this.userSelected);
         });
     }

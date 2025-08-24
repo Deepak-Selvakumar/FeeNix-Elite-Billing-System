@@ -15,7 +15,7 @@ export interface IUserDetail {
     toApps: string;
 }
 
-export interface IAppList {
+export interface IappList {
     personalID: number;
     personaName: string;
     personaAppName: string;
@@ -49,7 +49,7 @@ export interface ISubMenu {
     name:string;
     url:string;
 }
-export interface IuserSelect {
+export interface IUserSelect {
     userSysId: number;
     academicYear: any;
     userID: string;

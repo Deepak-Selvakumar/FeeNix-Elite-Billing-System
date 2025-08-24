@@ -13,5 +13,8 @@ export const protectedResources={
     },
     PersonaList :{
         resourceUrl: '/api/menu/applications'
-    }
+    },
+    YearList :{
+        resourceUrl: '/api/sel/yearlist'
+    },
 }
